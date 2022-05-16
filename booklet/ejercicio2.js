@@ -95,6 +95,17 @@ Ejercicio 5:
 Solicitar al usuario cuatro (4) productos de almacén. Si todos los elementos fueron cargados, realizar una única salida compuesta 
 por el listado de productos. Caso contrario, la salida será “Error: Es necesario cargar todos los productos”.
 */
+/*
+let carritoAlmacen1 = prompt("Puedes cargar un producto al almacen?");
+let carritoAlmacen2 = prompt("Puedes cargar un producto al almacen?");
+let carritoAlmacen3 = prompt("Puedes cargar un producto al almacen?");
+let carritoAlmacen4 = prompt("Puedes cargar un producto al almacen?");
 
-let carritoAlmacen = prompt("Puedes cargar cuatro productos del almacen?");
+if (carritoAlmacen1 != "" && carritoAlmacen2 != "" && carritoAlmacen3 != "" && carritoAlmacen4 != "" ) {
+    alert (" Estos son los productos de tu almacen: " + carritoAlmacen1 + ", " + carritoAlmacen2 + ", " + carritoAlmacen3 + ", " + carritoAlmacen4 + ".");
+}
+else {
+    alert ("Error: Es necesario cargar todos los productos");
+}
+*/
 
